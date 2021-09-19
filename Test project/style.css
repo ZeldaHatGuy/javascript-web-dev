@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'fantasy';
+}
+
+
+body {
+   background-color: rgb(156, 185, 182);
+   min-height: 100vh;
+}
+
+
+.navmenu {
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  background: rgb(62, 69, 167)
+}
+
+.side-bar .navmenu .navitem{
+  position: relative;
+  cursor: pointer;
+}
+
+.navmenu .navitem a {
+  color: rgb(182, 172, 172);
+  display: block;
+  justify-content: space-between;
+  line-height: 60px;
+  letter-spacing: 1px;
+  border-bottom: solid black 1px;
+}
+
+.navmenu .navitem a i {
+  margin-right: 20px;
+}
+
+
+.navmenu .navitem a:hover{
+  color: white;
+  background: black;
+  transition: 0.3s ease;
+}
+
+.navmenu .navitem a .dropdown{
+  position:absolute;
+  right: 0;
+  margin: 20px;
+  transition: 0.3s ease;
+}
+
+.side-bar .navmenu .navitem .sub-menu {
+  background: rgba(2255,255,255,0.1);
+  display: none;
+}
+
+.side-bar .navmenu .navitem .sub-menu a {
+  padding-left: 35px;
+}
+
+
+.rotate{
+  transform: rotate(180deg);
+}
+
+
+
+
+.close-btn {
+  position: absolute;
+  margin: 25px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+
+
+

@@ -161,6 +161,14 @@ if (favorite !== 23) console.log("This is not 23")
 // const tip = (bill * tipPercentage)
 // console.log(`the bill was ${bill} and the tip was ${tip}. Your total is ${bill + tip}.`)
 
+function addNum(num){
+    let counter = 0
+    for (let i=0;i<=num;i++){
+        counter+=i
+
+    }
+    return counter
+}
 
 
-
+console.log(addNum(4))
